@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+body {
+
+  font-family: 'Arial', sans-serif;
+
+  background: #1b1b1b;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 50px;
+
+}
+
+.container {
+
+  background: #2e2e2e;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  max-width: 400px;
+
+  margin: 0 auto;
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+}
+
+h1 {
+
+  color: #ffcc00;
+
+}
+
+.balance {
+
+  margin-bottom: 20px;
+
+  font-size: 20px;
+
+}
+
+.slot-machine {
+
+  margin: 20px 0;
+
+}
+
+#slot {
+
+  font-size: 60px;
+
+  margin: 20px 0;
+
+}
+
+button {
+
+  padding: 10px 20px;
+
+  font-size: 18px;
+
+  background: #ffcc00;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+button:hover {
+
+  background: #e6b800;
+
+}
+
+.result {
+
+  margin-top: 20px;
+
+  font-size: 18px;
+
+  height: 30px;
+
+}
