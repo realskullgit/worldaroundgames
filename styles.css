@@ -1,91 +1,63 @@
-<!DOCTYPE html>
-
 body {
-
   font-family: 'Arial', sans-serif;
-
-  background: #1b1b1b;
-
-  color: white;
-
+  background: #121212;
+  color: #fff;
   text-align: center;
-
-  padding: 50px;
-
+  padding: 40px;
 }
 
 .container {
-
-  background: #2e2e2e;
-
+  background: #1f1f1f;
   padding: 30px;
-
   border-radius: 10px;
-
-  max-width: 400px;
-
+  max-width: 500px;
   margin: 0 auto;
-
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
-
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
 
 h1 {
-
-  color: #ffcc00;
-
+  color: #ffc107;
 }
 
 .balance {
-
   margin-bottom: 20px;
-
   font-size: 20px;
+}
 
+.controls {
+  margin-bottom: 20px;
+}
+
+label, select {
+  font-size: 16px;
+  margin: 10px;
 }
 
 .slot-machine {
-
   margin: 20px 0;
-
 }
 
 #slot {
-
-  font-size: 60px;
-
+  font-size: 50px;
   margin: 20px 0;
-
 }
 
 button {
-
-  padding: 10px 20px;
-
+  padding: 12px 25px;
   font-size: 18px;
-
-  background: #ffcc00;
-
+  background: #ffc107;
+  color: #000;
   border: none;
-
-  border-radius: 5px;
-
+  border-radius: 6px;
   cursor: pointer;
-
 }
 
 button:hover {
-
-  background: #e6b800;
-
+  background: #e0a800;
 }
 
 .result {
-
   margin-top: 20px;
-
   font-size: 18px;
-
   height: 30px;
-
 }
